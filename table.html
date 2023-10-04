@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-image: url('finger.jpg');
+        background-repeat: no-repeat;
+        background-color: cover;
+
+
+      }
+      table {
+        margin: 0quto;
+        border: 3px solid #3f0a0a;
+        border-collapse: collapse;
+        font-size: 30px;
+      }
+      th {
+        padding: 3px;
+        border: 3px solid #773535;
+        font-size: 40px;
+      }
+      td {
+        padding: 5px;
+        border: 3px solid #705d5d;
+      }
+    </style>
+  </head>
+  <body>
+   
+   
+      <h1 style="color: rgb(14, 74, 93)">Score Calculator</h1>
+      <form action="/calculate" method="post">
+      <table style="size: 300px">
+        <tr>
+          <th style="color: rgb(42, 9, 9)">Subject</th>
+          <th style="color: rgb(42, 9, 9)">Mark</th>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="text"
+              name="subject"
+              placeholder="enter the subject name"
+              value="none"
+            />
+          </td>
+          <td>
+            <input type="number" min="0" max="100" value="0" name="marks" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="text"
+              name="subject"
+              placeholder="enter the subject name"
+              value="none"
+            />
+          </td>
+          <td>
+            <input type="number" min="0" max="100" value="0" name="marks" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="text"
+              name="subject"
+              placeholder="enter the subject name"
+              value="none"
+            />
+          </td>
+          <td>
+            <input type="number" min="0" max="100" value="0" name="marks" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="text"
+              name="subject"
+              placeholder="enter the subject name"
+              value="none"
+            />
+          </td>
+          <td>
+            <input type="number" min="0" max="100" value="0" name="marks" />
+          </td>
+        </tr>
+      </table>
+      <br />
+      <input type="submit" value="calculate average" />
+ 
+    </body>
+
+  </form>
+</html>
